@@ -1,0 +1,33 @@
+{
+  "name": "vin-checker",
+  "version": "1.0.0",
+  "description": "Check mã VIN",
+  "author": "",
+  "license": "MIT",
+  "keywords": [
+    "vin-checker",
+    "vin"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "build:watch": "tsup --watch",
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.18",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
